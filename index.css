@@ -1,0 +1,40 @@
+* {
+  font-family: "JetBrains Mono", monospace;
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 300px;
+    padding: 50px;
+    margin: auto;
+    background-color: rgb(27, 64, 115);
+}
+.btn {
+	box-shadow: 4px 2px 0px 1px gray;
+	background-color:gray;
+	border:1px solid rgb(153, 153, 153);
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:3px 23px;
+	text-decoration:none;
+	text-shadow:1px 2px 0px rgb(73, 73, 73);
+    margin: 10px;
+}
+.btn:hover {
+	background-color:#646464;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}.fa-eye{
+    position: absolute;
+    top: 119px;
+    right: 81vh;
+    cursor: pointer;
+    color: black; 
+  }
